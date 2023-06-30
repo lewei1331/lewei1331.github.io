@@ -1,5 +1,5 @@
-<script setup> 
-import Main from './components/Main.vue';
+<script setup>
+import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
@@ -11,7 +11,7 @@ import Main from './components/Main.vue';
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <Main msg="微微的薇" />
+  <HelloWorld msg="微微的薇" />
 </template>
 
 <style scoped>

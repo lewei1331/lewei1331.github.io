@@ -4,31 +4,22 @@ import { ref } from 'vue'
 defineProps({
   msg: String,
 })
- 
+
+const count = ref(0)
 </script>
 
 <template>
   <h1>{{ msg }}</h1>
-  <menu-section></menu-section>
+
+  <div class="card">
+    <button type="button" @click="count++">count is {{ count }}</button>
+    <p>
+      Edit
+      <code>components/HelloWorld.vue</code> to test HMR
+    </p>
+  </div>
+  
 </template>
-
-<script>
-Vue.component('menu-section', {
-	template: '<ul><li v-for="item in menuItems">{{ item.text }}</li></ul>',
-	data: function() {
-		return {
-			menuItems: [{
-			    text: 'About me'
-			}, {
-			    text: 'Articles'
-			}, {
-			    text: 'contact'
-			}]
-		};
-	}
-});
-</script>
-
 
 <style scoped>
 .read-the-docs {
