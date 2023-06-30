@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Vue</title>
-    <script type="module" crossorigin src="/assets/index-0ef3dea0.js"></script>
-    <link rel="stylesheet" href="/assets/index-ee3b682f.css">
+    <script src="https://unpkg.com/vue@2/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router@3/dist/vue-router.js"></script> 
+    <title>微微的薇</title>
+    <script type="module" crossorigin src="/assets/index-f2ad0c80.js"></script>
   </head>
   <body>
-    <div id="app"></div>
+
+    <div id="app">
+      <h1>Hello App!</h1>
+      <p>
+        <!-- use the router-link component for navigation. -->
+        <!-- specify the link by passing the `to` prop. -->
+        <!-- `<router-link>` will render an `<a>` tag with the correct `href` attribute -->
+        <router-link to="/">Go to Home</router-link>
+        <router-link to="/about">Go to About</router-link>
+      </p>
+      <!-- route outlet -->
+      <!-- component matched by the route will render here -->
+      <router-view></router-view>
+    </div>
+
     
+  
   </body>
 </html>
