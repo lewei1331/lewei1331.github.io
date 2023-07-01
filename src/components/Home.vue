@@ -1,3 +1,5 @@
-<template>
-    <a>home</a>
-</template>
+// Home.vue
+
+<script>
+ 
+</script>
