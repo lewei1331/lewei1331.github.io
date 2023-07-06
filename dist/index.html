@@ -3,26 +3,37 @@
   <head>
     <script src="https://unpkg.com/vue@3"></script>
     <script src="https://unpkg.com/vue-router@4"></script>
+    
     <title>微微的薇</title>
-    <script type="module" crossorigin src="/assets/index-f2ad0c80.js"></script>
+    <link rel="stylesheet" href="/assets/index-9829eb53.css">
   </head>
   <body>
 
     <div id="app">
-      <h1>Hello App!</h1>
-      <p>
-        <!-- use the router-link component for navigation. -->
-        <!-- specify the link by passing the `to` prop. -->
-        <!-- `<router-link>` will render an `<a>` tag with the correct `href` attribute -->
-        <router-link to="/">Go to Home</router-link>
-        <router-link to="/about">Go to About</router-link>
-      </p>
-      <!-- route outlet -->
-      <!-- component matched by the route will render here -->
-      <router-view></router-view>
-    </div>
+      <header> 
+        <h1 style="display:inline-block;text-align: left;" >微Title</h1> 
 
-    
-  
+        <ul> 
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li> 
+        </ul>
+ 
+      </header>
+
+
+      <section id="home" style="height:750px;margin-top: 100px;" >
+        
+        <img src="/assets/Home_Flower1-9e310181.jpg"></img>
+      </section>
+
+
+    <section id="about" style="height:750px;">
+      <!-- 介紹 -->
+      <p>sdkfsedpjfghturthyughrgj</p>
+  </section>
+       
+    </div>
+ 
+  <!-- <script type="module" src="/src/main.js"></script> -->
   </body>
 </html>

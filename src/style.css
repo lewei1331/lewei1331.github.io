@@ -5,6 +5,7 @@ html {
 #app {
   max-width: 1500px; 
   text-align: left;
+  background-color: #EFE9E4;
 }
 
 h1 {
@@ -42,3 +43,4 @@ ul li {
 ul li a {
   text-decoration: none;
 }
+
