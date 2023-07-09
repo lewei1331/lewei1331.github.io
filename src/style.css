@@ -2,8 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 
-#app {
-  max-width: 1500px; 
+#app { 
   text-align: left;
   background-color: #EFE9E4;
 }
