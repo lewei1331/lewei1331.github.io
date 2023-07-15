@@ -28,23 +28,22 @@ header {
   align-items: center;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0; 
+ 
+ul.solid-bullet {
+  list-style-type: disc;
 }
 
-ul li {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-ul li a {
-  text-decoration: none;
+ul.solid-bullet li {
+  color: black;
+  font-size: 3vmin;
+  font-weight: bold;
+  text-align: left; 
+  color: #5E5343;   
 }
 
 img{
   max-width:100%;  
   height:auto;
 }
+ 
 
