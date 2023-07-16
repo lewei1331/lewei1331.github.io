@@ -15,8 +15,7 @@ h1 {
     
 
 .header {
-  display: flex;
-  overflow: hidden;
+  display: flex; 
   align-items: center; 
   position: fixed;
   top: 0;
@@ -58,10 +57,9 @@ img{
 .header-tab:hover {
   background-color: #ccc;
 }
-
-
-
-.dropbtn { 
+ 
+.dropbtn {  
+  background-color: #f9f9f9;
   color: #625D5D;
   padding: 16px;
   font-size: 16px;
@@ -86,7 +84,6 @@ img{
   text-decoration: none;
   display: block;
 }
-
 .dropdown-content a:hover {background-color: #ddd;}
 
 .dropdown:hover .dropdown-content {display: block;}
