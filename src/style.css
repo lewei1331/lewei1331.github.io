@@ -47,3 +47,14 @@ img{
 }
  
 
+ /* 標頭的標籤樣式 */
+ .header-tab {
+  display: inline-block;  
+  color: #fff;
+  text-decoration: none;
+}
+
+/* 滑鼠懸停時的樣式 */
+.header-tab:hover {
+  background-color: #ccc;
+}
