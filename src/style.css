@@ -2,6 +2,18 @@ html {
   scroll-behavior: smooth;
 }
 
+/* 引入 glow sans 字體（若已在使用者電腦上安裝） */
+body {
+  font-family: "glow sans", sans-serif;
+}
+
+/* 引入 glow sans 字體（透過網路載入） */
+@import url('https://fonts.googleapis.com/css2?family=Glow+Sans&display=swap');
+body {
+  font-family: 'Glow Sans', sans-serif;
+}
+
+
 #app { 
   text-align: left;
   background-color: #EFE9E4;
@@ -11,6 +23,11 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
   float: left;
+}
+
+p {
+  color: #5E5343;
+  font-weight:bold;
 }
     
 
